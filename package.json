@@ -1,0 +1,14 @@
+{
+  "name": "sample_msgbox_responsive",
+  "version": "1.0.0",
+  "description": "Sample MsgBox Responsive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yarkın ÜÇERLER <yarkinucerler@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
