@@ -1,0 +1,155 @@
+/* Created By Yarkın ÜÇERLER on date 29.11.2017 */
+
+div.msg-wrapper {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    position: absolute;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+div.msg-wrapper > .background-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div.msg-wrapper .msg-container {
+    z-index: 15;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 290px;
+    position: relative; 
+}
+
+div.msg-wrapper .msg-container {
+    padding: 15px;
+}
+
+div.msg-wrapper .msg-container {
+    background-color: #fff;
+}
+
+div.msg-wrapper .msg-container {
+    max-width: 550px;
+}
+
+div.msg-wrapper .msg-container.small {
+    max-width: 290px;
+}
+
+div.msg-wrapper .msg-container.medium {
+    max-width: 550px;
+}
+
+div.msg-wrapper .msg-container.large {
+    max-width: 960px;
+}
+
+div.msg-wrapper .msg-container > div.msg-close {
+    right: 0;
+    top: -35px;
+    width: 45px;
+    height: 35px;
+    color: #303;
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    background-color: inherit;
+}
+
+div.msg-wrapper .msg-container > div.msg-close > a {
+    color:  inherit;
+    text-decoration: none;
+}
+
+div.msg-wrapper .msg-container > header.msg-title {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+div.msg-wrapper .msg-container > main.msg-content,
+div.msg-wrapper .msg-container > footer.msg-footer {
+    font-size: 1rem;
+}
+
+div.msg-wrapper .msg-container > main.msg-content {
+    padding: 15px;
+}
+
+/* MsgBox Input Group Begin */
+.msg-input-group {
+    margin-bottom: 15px;
+}
+
+.msg-input-group > label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.msg-input-group > input {
+    border: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+/* MsgBox Input Group End */
+
+/* MsgBox Button Group Begin */
+.msg-button-group {
+    width: 100%;
+    padding: 10px 0;
+    max-width: 100%;
+}
+
+.msg-button-group > button {
+    border: none;
+    outline: none;
+}
+
+.msg-button-group > button {
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+.msg-button-group > button:hover {
+    background-color: rgba(220, 220, 220, 1);
+}
+
+.msg-button-group > button {
+    padding: 10px 15px;
+}
+
+.msg-button-group > button {
+    margin-right: 5px;
+}
+
+.msg-button-group > button:last-child {
+    margin-right: 0;
+}
+
+.msg-input-group > input {
+    width: 100%;
+    max-width: 100%;
+}
+
+.msg-input-group > input {
+    height: 34px;
+    line-height: 33px;
+}
+
+.msg-input-group > input {
+    border: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.msg-input-group > input {
+    outline: none;
+}
+/* MsgBox Button Group End */

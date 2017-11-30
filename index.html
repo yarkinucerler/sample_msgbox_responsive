@@ -5,10 +5,30 @@
 <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
+        <button id="test">Click Alert</button>
+        <button id="test1">Click Prompt</button>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script>
-        $.msgBox({
+        $('#test').click(function () {
+            $.msgBox({
+                content: '',
+                size: 'abc',
+                autoClose: true,
+                title: 'Welcom to MsgBox Plugin',
+                type: "alert",
+            });
+        });
+        $('#test1').click(function () {
+            $.msgBox({
+                content: '',
+                size: 'small',
+                title: 'Login In',
+                type: "prompt",
+                success: function (data) {
+                    console.log(data);
+                }
+            });
         });
     </script>
 </body>
